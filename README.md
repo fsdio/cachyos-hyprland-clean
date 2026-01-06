@@ -14,3 +14,11 @@ cd scripts
 chmod +x 01-before-reboot.sh
 ./01-before-reboot.sh
 reboot
+```
+### 1. After reboot (Hyprland)
+```bash
+cd scripts
+chmod +x 02-after-reboot.sh
+./02-after-reboot.sh
+reboot
+```
